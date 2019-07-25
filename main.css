@@ -1,0 +1,37 @@
+body {
+  font-family: "Courier New", courier, monospace;
+  color: #424242;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+p {
+  margin: 1.4rem 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    font-size: 2rem;
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (min-device-width: 480px) {
+  body {
+    width: 600px
+  }
+}
