@@ -15,12 +15,36 @@ h2 {
 }
 
 p {
-  margin: 1.4rem 0;
+  margin: 1.0rem 0;
+}
+
+figure {
+  margin: 1.6rem 0;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  text-align: center;
+  display: block;
 }
 
 ul {
   margin: 0;
   padding-left: 1rem;
+}
+
+ol.bibliography {
+  margin: 0;
+  padding-left: 0;
+}
+
+ol.bibliography > li {
+  list-style: none;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -32,6 +56,6 @@ ul {
 
 @media only screen and (min-device-width: 480px) {
   body {
-    width: 600px
+    width: 800px
   }
 }
