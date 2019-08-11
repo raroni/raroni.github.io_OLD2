@@ -38,6 +38,12 @@ ul {
   padding-left: 1rem;
 }
 
+code {
+  display: block;
+  padding: 1rem;
+  background: #cecece;
+}
+
 ol.bibliography {
   margin: 0;
   padding-left: 0;
