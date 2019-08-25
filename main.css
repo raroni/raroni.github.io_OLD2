@@ -1,5 +1,5 @@
 body {
-  font-family: "Courier New", courier, monospace;
+  font-family: system-ui, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: #424242;
   margin: 1rem auto;
   line-height: 1.6;
